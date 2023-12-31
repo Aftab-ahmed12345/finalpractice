@@ -6,6 +6,7 @@ import Image2 from "../assets/images/2.png"
 import Image3 from "../assets/images/3.png"
 import Image4 from "../assets/images/4.png"
 import Image5 from "../assets/images/5.png"
+import Image6 from "../assets/images/6.png"
 
 function Projects() {
 return (
@@ -85,7 +86,7 @@ return (
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                 <Card style={{ width: '18rem' }}>
-                  <Card.Img variant="top" style={{width:"18rem", height:"10rem "}} src={Image1}/>
+                  <Card.Img variant="top" style={{width:"18rem", height:"10rem "}} src={Image6}/>
                   <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
