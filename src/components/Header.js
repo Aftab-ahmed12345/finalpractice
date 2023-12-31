@@ -31,6 +31,7 @@ return (
               </NavDropdown.Item>                     
             </NavDropdown>
               </Link>   
+            <Nav.Link className={"text-white"}> <Link style={{textDecoration: 'none'}} className={"text-white"} to={"/products"}> Products </Link></Nav.Link>
             <Nav.Link className='ps-2'><Link to={'/contact'} style={{textDecoration:'none', color:'white'}} >Contact Us </Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>

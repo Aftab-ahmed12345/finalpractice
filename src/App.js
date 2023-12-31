@@ -8,6 +8,10 @@ import Footer from './components/Footer';
 import { Route,  Routes } from 'react-router-dom';
 import WelcomePage from './components/WelcomePage';
 import AllProjects from './components/AllProjects';
+import {ProductDescription} from './components/ProductDescription';
+import AllProducts from './components/AllProducts';
+
+
 
 function App() {
   return (
@@ -17,6 +21,8 @@ function App() {
          <Route path={'/'} element={< WelcomePage/>} />
          <Route path={'/allprojects'} element={ <AllProjects/>} />
          <Route path={'/reviews'} element={<Reviews/>} />
+         <Route path={'/products'} element={<AllProducts/>}/>
+         <Route path={'/products:productId'} element={<ProductDescription />}/>
          <Route path={'/contact'} element={<Contact/>} />
       </Routes>   
       <Footer/>
